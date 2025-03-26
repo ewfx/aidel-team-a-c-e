@@ -15,8 +15,6 @@ def process_ai_query(prompt, prompt_type):
 
     completion = client.chat.completions.create(
         extra_body={},
-        # model="deepseek/deepseek-r1-zero:free",
-        # model="meta-llama/llama-3.1-8b-instruct:free",
         model="nvidia/llama-3.1-nemotron-70b-instruct:free",
         messages=[{"role": "user", "content": prompt}],
     )

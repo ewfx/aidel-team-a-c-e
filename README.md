@@ -32,6 +32,11 @@ The need for robust financial compliance and risk assessment tools inspired this
 - Performs web searches for additional context about entities.
 - Analyzes sentiment for entities involved in transactions.
 - Evaluates transaction risks based on predefined rules.
+- Risk Rating System
+   - Low Risk (1-3): Routine transactions between verified entities with no red flags.
+   - Medium Risk (4-6): Transactions with minor anomalies or involving moderate-risk jurisdictions.
+   - High Risk (7-9): Transactions with significant red flags, high-risk jurisdictions, or unverified entities.
+   - Critical Risk (10): Transactions that violate regulations or involve known fraudulent activity.
 - Generates detailed risk and compliance reports.
 
 ## 🛠️ How We Built It
